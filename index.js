@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const { createLogo } = require('./lib/createLogo');
 
-const runApplication = async () => {
-  const answers = await inquirer.prompt([
+const runApplication = () => {
+  inquirer.prompt ([
     {
       name: 'text',
       message: 'Enter up to three characters:',
@@ -22,9 +22,11 @@ const runApplication = async () => {
       name: 'shapeColor',
       message: 'Enter the shape color (color keyword or hexadecimal number):',
     },
-  ]);
+  ])
 
-  await createLogo(answers);
+  .then(async (answers) => {
+    await createLogo(answers);
+  });
 };
 
 runApplication();
