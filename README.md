@@ -2,6 +2,10 @@
 
 ## Description
   SVG Logo creation using Jest, Inquirer, and SVG packages, and input in the terminal using Node 
+
+  Screenshot:![Screenshot (464)](https://github.com/Zero-0X/Challenge_10_OOP_SVG_Logo/assets/110013207/355ab407-9000-48ae-9d09-c3204893816a)
+
+  Video Link: https://drive.google.com/file/d/1wSPwkRef_ZwjbJk055EXs4ATt4hLaQmT/view?usp=drive_link
   
 ## Table of Contents
 - [Installation](#installation)
